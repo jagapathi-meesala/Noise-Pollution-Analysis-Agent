@@ -1,0 +1,16 @@
+name: generate-noise-report
+description: Generate a deterministic report from supplied noise analysis results.
+input_schema:
+  type: object
+  properties:
+    location:
+      type: string
+    analysis:
+      type: object
+    classification:
+      type: string
+  required:
+    - location
+    - analysis
+    - classification
+  additionalProperties: false

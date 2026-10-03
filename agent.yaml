@@ -1,0 +1,22 @@
+spec_version: "0.1.0"
+name: noise-pollution-analysis-agent
+version: 1.0.0
+description: A framework-independent agent for analyzing supplied environmental noise measurements, classifying noise levels, and generating concise reports.
+author: Agent Passport Project
+license: MIT
+skills:
+  - noise-monitoring
+  - noise-classification
+  - noise-reporting
+tools:
+  - analyze-noise-level
+  - classify-noise-exposure
+  - generate-noise-report
+runtime:
+  max_turns: 20
+  timeout: 120
+tags:
+  - noise
+  - environment
+  - monitoring
+  - analysis

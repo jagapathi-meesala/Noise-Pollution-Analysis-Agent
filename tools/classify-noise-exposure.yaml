@@ -1,0 +1,10 @@
+name: classify-noise-exposure
+description: Classify one supplied sound-level measurement using explicit analytical thresholds.
+input_schema:
+  type: object
+  properties:
+    db:
+      type: number
+  required:
+    - db
+  additionalProperties: false

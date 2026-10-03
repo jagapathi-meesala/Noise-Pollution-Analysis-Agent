@@ -1,0 +1,12 @@
+name: analyze-noise-level
+description: Analyze a list of supplied sound-level measurements.
+input_schema:
+  type: object
+  properties:
+    measurements:
+      type: array
+      items:
+        type: number
+  required:
+    - measurements
+  additionalProperties: false
